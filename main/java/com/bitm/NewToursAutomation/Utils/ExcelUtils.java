@@ -86,6 +86,7 @@ public class ExcelUtils {
 						break;
 					case 1:
 						FlightFinder.setDepartingFrom(formatter.formatCellValue(cell));
+						cellCounter++;
 						break;
 					case 2:
 						FlightFinder.setOnMonth(formatter.formatCellValue(cell));
